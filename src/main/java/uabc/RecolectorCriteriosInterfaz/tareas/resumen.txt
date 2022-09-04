@@ -1,0 +1,8 @@
+“Don Quijote de la Mancha es una de las novelas más reconocidas en la narrativa española, 
+siendo un trabajo de Miguel Cervantes. La novela narra la historia de un hidalgo apasionado 
+por los relatos de caballería, Alonso Quijano. Su obsesión por estas obras ocasiona que pierda 
+la cordura y comience a creerse un caballero, haciéndose llamar Don Quijote de la Mancha.
+
+Así, sale en busca de aventuras en compañía de su ayudante y escudero, Sancho Panza. Juntos 
+recorren las tierras de La Mancha, Aragón y Cataluña haciendo frente tanto a villanos reales, 
+como imaginarios”.

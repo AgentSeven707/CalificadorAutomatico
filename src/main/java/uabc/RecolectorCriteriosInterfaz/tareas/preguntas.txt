@@ -1,0 +1,19 @@
+¿Por qué es abstracta y universal? 
+La máquina de Turing pretende representar de manera formal lo que es un algoritmo, 
+esto con el fin de ver los tipos de problemas que pueden resolverse dentro de algún 
+proceso mecánico. Se dice que su idea principal es “un modelo o proceso computacional 
+que pueda llevar a cabo determinadas tareas”[1], esta se considera abstracta debido a 
+que esta es usada en experimentos de pensamiento para analizar la complejidad de algoritmos 
+y consiste en una definición de entrada, salida y el conjunto de las operaciones permitidas 
+usadas para convertir la primera en la segunda. [2]. Y finalmente se dice que es universal 
+ya que “puede operar todo algoritmo computable”[3]. 
+
+¿Cuál es su relación con los autómatas? 
+De acuerdo con la jerarquía de Chomsky, la máquina de Turing tiene la capacidad de reconocer 
+lenguajes recursivamente enumerables tal cómo un autómata. Más, su diferencia fundamental con 
+el autómata de pila y el finito, radica en que la máquina de Turing puede leer un símbolo y 
+reescribirlo por otro y su cabeza lectura/escritura puede desplazarse a la izquierda, a la 
+derecha o quedarse en el mismo lugar.  “Este modelo permite aceptar los lenguajes recursivos 
+enumerables o estructurados por frases que incluyen todo el conjunto de lenguajes que describen 
+procedimientos computacionales. Todo procedimiento computacional puede ser modelado con una 
+Máquina de Turing.”[4]
