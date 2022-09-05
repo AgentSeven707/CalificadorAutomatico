@@ -1,5 +1,6 @@
 # CalificadorAutomatico
 Diagrama de arquitectura: 
+  
   Existen 3 paquetes: 
   
        - RecolectorCriteriosInterfaz: Tiene dos JFrames que recolectan los datos (FormularioGuia y SelectorArchivoTarea). Por medio de FormularioGuia se establecen 
@@ -13,12 +14,19 @@ Diagrama de arquitectura:
          del 1 al 3 y la clase Mensaje se encarga de recibir esa opción y dar una retroalimentación adecuada. 
          
   Requerimientos para ejecutar el código: 
+  
        - Tener los archivos de tarea guardados en el equipo. 
+       
        - Tener el proyecto de java guardado en el equipo. 
+       
        - Ejecutarlo desde un IDE que pueda compilar proyectos de java.
   
   Instrucciones para ejecutar el programa:
+  
        - Ejecutar el archivo FormularioGuia.java.
-       - Rellenar las opciones que vienen en el JFrame FomularioGuia. 
-       - Añadir el archivo mediante la opción "seleccionar archivo". 
+       
+       - Rellenar las opciones que vienen en el JFrame FomularioGuia.
+       
+       - Añadir el archivo mediante la opción "seleccionar archivo".
+       
        - Darle click al botón de calificar. 
