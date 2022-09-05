@@ -2,13 +2,10 @@ package uabc.RecolectorCriteriosInterfaz;
 
 /**
  *
- * @author Princ
+ * @author Alexandra Anchondo Robles
  */
 public class SelectorArchivoTarea extends javax.swing.JFrame {
 
-    /**
-     * Creates new form SelectorArchivoTarea
-     */
     String direccion = "";
     public SelectorArchivoTarea() {
         initComponents();
@@ -26,7 +23,7 @@ public class SelectorArchivoTarea extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         direccionArchivo = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
+        aceptar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -37,13 +34,13 @@ public class SelectorArchivoTarea extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Century Gothic", 0, 18)); // NOI18N
         jLabel2.setText("Dirección del archivo:");
 
-        jButton1.setBackground(new java.awt.Color(0, 102, 102));
-        jButton1.setFont(new java.awt.Font("Century Gothic", 0, 14)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("Aceptar");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        aceptar.setBackground(new java.awt.Color(0, 102, 102));
+        aceptar.setFont(new java.awt.Font("Century Gothic", 0, 14)); // NOI18N
+        aceptar.setForeground(new java.awt.Color(255, 255, 255));
+        aceptar.setText("Aceptar");
+        aceptar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                aceptarActionPerformed(evt);
             }
         });
 
@@ -62,7 +59,7 @@ public class SelectorArchivoTarea extends javax.swing.JFrame {
                             .addComponent(direccionArchivo, javax.swing.GroupLayout.PREFERRED_SIZE, 439, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(265, 265, 265)
-                        .addComponent(jButton1)))
+                        .addComponent(aceptar)))
                 .addContainerGap(30, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -75,17 +72,18 @@ public class SelectorArchivoTarea extends javax.swing.JFrame {
                     .addComponent(jLabel2)
                     .addComponent(direccionArchivo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 29, Short.MAX_VALUE)
-                .addComponent(jButton1)
+                .addComponent(aceptar)
                 .addGap(25, 25, 25))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    //Botón para leer la dirección de un JTextField
+    private void aceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aceptarActionPerformed
         direccion = direccionArchivo.getText();
         this.setVisible(false);
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_aceptarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -123,8 +121,8 @@ public class SelectorArchivoTarea extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton aceptar;
     private javax.swing.JTextField direccionArchivo;
-    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables

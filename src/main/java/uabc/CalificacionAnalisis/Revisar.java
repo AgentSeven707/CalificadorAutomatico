@@ -10,6 +10,7 @@ import java.io.IOException;
  */
 public class Revisar {
 
+    //Método que analiza si el tipo de tarea es el correspondiente 
     public boolean cumplimientoTipo(String tipo, String archivo) {
         //System.out.println(archivo+" "+tipo);
         boolean resultado = false;
@@ -30,6 +31,7 @@ public class Revisar {
         return resultado;
     }
 
+    //Método que analiza si la extensión es la correcta 
     public boolean cumplimientoExtension(int extension, String archivo) {
         //System.out.println(archivo+" "+extension);
         boolean resultado = false; 

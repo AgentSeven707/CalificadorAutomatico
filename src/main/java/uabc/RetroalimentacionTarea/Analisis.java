@@ -2,10 +2,11 @@ package uabc.RetroalimentacionTarea;
 
 /**
  *
- * @author Princ
+ * @author Alexandra Anchondo Robles
  */
 public class Analisis {
 
+    //Método que lee una calificación y la desgloca en 3 posibles escenarios
     public int analisis(int calif){
         int op = 0; 
         if (calif == 100){

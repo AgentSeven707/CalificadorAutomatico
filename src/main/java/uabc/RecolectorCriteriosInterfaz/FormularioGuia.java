@@ -177,10 +177,12 @@ public class FormularioGuia extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    //Botón para llamar a un JFrame que lee la dirección del archivo
     private void BuscarArchivoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BuscarArchivoActionPerformed
         arc.setVisible(true);
     }//GEN-LAST:event_BuscarArchivoActionPerformed
 
+    //Botón para iniciar el proceso de calificación y retroalimentación
     private void BotonCalificadorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonCalificadorActionPerformed
         direccion = arc.direccion;
         if (resumen.isSelected()){

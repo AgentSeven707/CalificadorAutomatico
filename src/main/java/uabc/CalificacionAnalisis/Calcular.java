@@ -6,6 +6,7 @@ package uabc.CalificacionAnalisis;
  */
 public class Calcular {
 
+    //Método que analiza si existen los criterios necesarios y asigna una calificación
     public int Calificacion(boolean tipo, boolean extension) {
         int calif = 0;
         if (tipo == true && extension == true) {
